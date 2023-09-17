@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    background: url(photo.avif) center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(0px);
+}
+span {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    opacity: 0;
+}
